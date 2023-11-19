@@ -1,8 +1,32 @@
 
-.nav {
+body{display:grid;
+  background-color:#E3B448;
+}
+nav {
   margin: 20px;
   max-width: 300px;
   border: 1px solid gray;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: flex;
+  
+  display:flexbox;
+    background-color:#3A6B35;
+    border-radius:2px;
+    margin:5px;
+    height:90px;
+  padding: 0px 0px;
+    text-align:center;
+     border-bottom: 2px solid #262626;
+    
+     text-decoration: none;
+
+ 
+
 }
+nav a {
+  color: #edefee;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
