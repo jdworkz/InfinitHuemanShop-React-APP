@@ -1,16 +1,27 @@
-import Nav from "./Nav";
+import Navbar from "./Nav"
 
+import Home from "./Home"
+import Contact from "./Contact"
 import "./App.css";
 
-function App(){
-  return(
-    <div className="App">
-      <Nav />
-      
-    </div>
-    
-  );
-}
-export default App;
+import { Route, Routes } from "react-router-dom"
 
+function App() {
+  return (
+    <>
+      <Navbar />
+      <div className="container">
+       
+        <Routes>
+          <Route path="/" component={<Home />} />
+          <Route path="/Contact" component={<Contact />} />
+          <Route path="/About" component={<About />} />
+        </Routes>
+       
+      </div>
+    </>
+  )
+}
+
+export default App
 

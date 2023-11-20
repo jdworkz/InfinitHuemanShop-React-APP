@@ -2,20 +2,18 @@
 body{display:grid;
   background-color:#E3B448;
 }
-nav {
-  margin: 20px;
-  max-width: 300px;
+.nav {
+  
   border: 1px solid gray;
   padding: 20px;
-  border-radius: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
   
-  display:flexbox;
+  display:flex;
     background-color:#3A6B35;
-    border-radius:2px;
-    margin:5px;
-    height:90px;
-  padding: 0px 0px;
-    text-align:center;
+    
      border-bottom: 2px solid #262626;
     
      text-decoration: none;
@@ -29,4 +27,18 @@ nav a {
   font-size: 20px;
   margin-right: 20px;
 }
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
 
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+.nav li:hover {
+  background-color: #777;
+}
