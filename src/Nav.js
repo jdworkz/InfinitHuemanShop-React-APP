@@ -1,15 +1,20 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import {HiOutlineMenuAlt4} from 'react-icons/hi'
 
 export default function Navbar() {
   return (
     <nav className="nav">
-     
-      <ul>
+     <div className="container">
+      <ul className="nav-menu">
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
-        
+       
       </ul>
+      <div className="hambuger" >
+        <HiOutlineMenuAlt4 className="menu-ham"/>
+      </div>
+      </div>
     </nav>
   )
 }
