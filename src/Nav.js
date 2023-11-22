@@ -1,17 +1,20 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
+import React, {useState} from "react"
 
 export default function Navbar() {
+  const[click, setClick]= useState(false)
+  const handleClick =() => setClick(!click)
   return (
     <nav className="nav">
      <div className="container">
-      <ul className="nav-menu">
+      <ul className={click ? 'nav-menu active':'nav-menu'}>
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
        
       </ul>
-      <div className="hambuger" >
+      <div className="hamburger" onClick ={handleClick}>
         <HiOutlineMenuAlt4 className="menu-ham"/>
       </div>
       </div>

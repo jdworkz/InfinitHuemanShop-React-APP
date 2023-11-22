@@ -32,7 +32,7 @@ body{display:grid;
   padding: 1rem;
 }
 .hamburger{
-  display: none;
+  color:blue;
 }
 nav .menu-ham{
   font-size: 2rem;
