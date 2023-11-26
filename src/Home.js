@@ -1,5 +1,6 @@
 import React from "react"
-import tincture from "./assets/tincture.jpg"
+import tincture from "./assets/IMG_4352 (1).jpg"
+import logo from "./assets/INFINITE HUEMAN LOGO-4.png"
 import "./Home.css"
 
 function Home(){
@@ -11,7 +12,7 @@ function Home(){
       </div>
       <div className="container">
       <img src={tincture} height='300' width='300' alt=""/>
-      <img src={tincture} height='300' width='300' alt=""/>
+      <img src={logo} height='300' width='300' alt=""/>
       <img src={tincture} height='300' width='300' alt=""/>
       </div>
 <button className="btn">Shop Now</button>
