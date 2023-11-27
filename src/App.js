@@ -1,4 +1,4 @@
-import Navbar from "./Nav"
+import Navbar from "./Nav.js"
 
 import Home from "./Home"
 import Contact from "./Contact"
