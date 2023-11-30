@@ -3,6 +3,7 @@ import tincture from "./assets/IMG_4352 (1).jpg"
 import logo from "./assets/INFINITE HUEMAN LOGO-4.png"
 import "./Home.css"
 
+
 function Home(){
   return(
     <div className="home">
