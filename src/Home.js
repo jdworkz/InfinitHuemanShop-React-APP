@@ -12,9 +12,9 @@ function Home(){
 
       </div>
       <div className="container">
-      <img src={tincture} height='300' width='300' alt=""/>
-      <img src={logo} height='300' width='300' alt=""/>
-      <img src={tincture} height='300' width='300' alt=""/>
+      <img className="order-1" src={tincture} height='300' width='300' alt=""/>
+      <img className="order-2"src={logo} height='300' width='300' alt=""/>
+      <img className="order-3"src={tincture} height='300' width='300' alt=""/>
       </div>
 <button className="btn">Shop Now</button>
     </div>

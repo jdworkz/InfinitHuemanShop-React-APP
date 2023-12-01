@@ -23,6 +23,9 @@
   .navbar .nav-menu{
     display:flex;
   }
+  .navbar img{
+    border-radius: 8px;
+  }
   .navbar li{
     padding: 1rem;
   }
