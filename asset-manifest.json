@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/InfinitHuemanShop-React-APP/static/css/main.ec3757a0.css",
-    "main.js": "/InfinitHuemanShop-React-APP/static/js/main.adfee694.js",
+    "main.js": "/InfinitHuemanShop-React-APP/static/js/main.c65a80f6.js",
     "static/js/787.b898d423.chunk.js": "/InfinitHuemanShop-React-APP/static/js/787.b898d423.chunk.js",
     "static/media/INFINITE HUEMAN LOGO-4.png": "/InfinitHuemanShop-React-APP/static/media/INFINITE HUEMAN LOGO-4.243d0e9d8aa599e8b49d.png",
     "static/media/IMG_4352 (1).jpg": "/InfinitHuemanShop-React-APP/static/media/IMG_4352 (1).f3f3f409effe8093dbe6.jpg",
     "index.html": "/InfinitHuemanShop-React-APP/index.html",
     "main.ec3757a0.css.map": "/InfinitHuemanShop-React-APP/static/css/main.ec3757a0.css.map",
-    "main.adfee694.js.map": "/InfinitHuemanShop-React-APP/static/js/main.adfee694.js.map",
+    "main.c65a80f6.js.map": "/InfinitHuemanShop-React-APP/static/js/main.c65a80f6.js.map",
     "787.b898d423.chunk.js.map": "/InfinitHuemanShop-React-APP/static/js/787.b898d423.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec3757a0.css",
-    "static/js/main.adfee694.js"
+    "static/js/main.c65a80f6.js"
   ]
 }
