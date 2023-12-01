@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/InfinitHuemanShop-app/static/css/main.ec3757a0.css",
+    "main.js": "/InfinitHuemanShop-app/static/js/main.068c2b78.js",
+    "static/js/787.b898d423.chunk.js": "/InfinitHuemanShop-app/static/js/787.b898d423.chunk.js",
+    "static/media/INFINITE HUEMAN LOGO-4.png": "/InfinitHuemanShop-app/static/media/INFINITE HUEMAN LOGO-4.243d0e9d8aa599e8b49d.png",
+    "static/media/IMG_4352 (1).jpg": "/InfinitHuemanShop-app/static/media/IMG_4352 (1).f3f3f409effe8093dbe6.jpg",
+    "index.html": "/InfinitHuemanShop-app/index.html",
+    "main.ec3757a0.css.map": "/InfinitHuemanShop-app/static/css/main.ec3757a0.css.map",
+    "main.068c2b78.js.map": "/InfinitHuemanShop-app/static/js/main.068c2b78.js.map",
+    "787.b898d423.chunk.js.map": "/InfinitHuemanShop-app/static/js/787.b898d423.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec3757a0.css",
+    "static/js/main.068c2b78.js"
+  ]
+}
