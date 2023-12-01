@@ -17,7 +17,7 @@ const Navbar = () => {
           <logo ><img src={logo} width="100px"height="100px" alt="logo"/></logo>
               <button className='btn'>Sign In</button>
               <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <CustomLink to="/home">Home</CustomLink>
+        <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
         <CustomLink to="/Shop">Shop</CustomLink>
