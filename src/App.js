@@ -8,26 +8,28 @@ import Shop from "./shop/Shop.js"
 
 import "./App.css";
 
-import { Route, Routes, } from "react-router-dom"
+import { Route, Routes,  } from "react-router-dom"
 
 function App() {
   return (
   
     <>
+   
       <Navbar />
       <div >
        
         <Routes>
+          
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/About" element={<About />} />
           <Route path="/Shop" element={<Shop />} />
-          <Route path="/" element={<Home />} />
-    
+         
+          
         </Routes>
         
       </div>
-      <Home />
+      
       <Footer/>
     </>
   )
