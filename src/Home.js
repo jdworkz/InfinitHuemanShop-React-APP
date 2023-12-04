@@ -12,12 +12,40 @@ function Home(){
 
       </div>
       <div className="container">
+
+       <div className="img1-container">
       <img className="order-1" src={tincture} height='300' width='300' alt=""/>
-      <img className="order-2"src={logo} height='300' width='300' alt=""/>
-      <img className="order-3"src={tincture} height='300' width='300' alt=""/>
-      </div>
-<button className="btn">Shop Now</button>
+      <div className="middle">
+        <div className="text">Hello this is where a disciption will go...
+        .55555555555555666666666666666666666666666666666666666666
+        6666666666666666666666666666</div>
+        <button className="btn">Shop Now</button>
     </div>
+      </div>
+      
+
+      <div className="img1-container">
+      <img className="order-1"src={logo} height='300' width='300' alt=""/>
+      <div className="middle">
+        <p>Hello this is where a disciption will go....\n hkhkhikgkhkgjhgvjhujghvj</p>
+        <button className="btn">Shop Now</button>
+    </div>
+      </div>
+      
+
+      
+      
+      <div className="img1-container">
+      <img className="order-1" src={tincture} height='300' width='300' alt=""/>
+      <div className="middle">
+        <div className="text">Hello this is where a disciption will go....</div>
+        <button className="btn">Shop Now</button>
+    </div>
+      </div>
+      
+      </div>
+      </div>
+
   )
 
 }
