@@ -16,9 +16,7 @@ function Home(){
        <div className="img1-container">
       <img className="order-1" src={tincture} height='300' width='300' alt=""/>
       <div className="middle">
-        <div className="text">Hello this is where a disciption will go...
-        .55555555555555666666666666666666666666666666666666666666
-        6666666666666666666666666666</div>
+        <div className="text">Hello this is where a disciption will go...</div>
         <button className="btn">Shop Now</button>
     </div>
       </div>
